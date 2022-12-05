@@ -9,6 +9,11 @@ public class studentcontroller {
     @GetMapping("/")
     public String Homepage()
     {
-        return "Welcome";
+        return "Welcome to home page";
+    }
+    @GetMapping("/contact")
+    public String Contact()
+    {
+        return "Welcome to contact page";
     }
 }
